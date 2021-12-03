@@ -31,6 +31,12 @@ src: url(fonts/Arial-Bold.ttf);
     font-family: Dosis-Bold;
 }
 
+.Lh3D{
+  font-size: 25px;
+  font-family: Dosis-Bold;
+  color: black;
+}
+
 .pD{
   font-size: 16px;
   font-family: Dosis-Bold;

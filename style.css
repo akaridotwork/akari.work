@@ -34,12 +34,26 @@ src: url(fonts/Arial-Bold.ttf);
 .Lh3D{
   font-size: 25px;
   font-family: Dosis-Bold;
-  color: black;
+  color: #ec5e51;
+}
+
+.Lh3D:hover {
+  color: #73ee8b;
 }
 
 .pD{
   font-size: 16px;
   font-family: Dosis-Bold;
+}
+
+.LpD{
+  font-size: 16px;
+  font-family: Dosis-Bold;
+  color: #ec5e51;
+}
+
+.LpD:hover {
+  color: #73ee8b;
 }
 
 .pA{

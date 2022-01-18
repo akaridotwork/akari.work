@@ -23,19 +23,36 @@
 
     <br />
 
-    <img height="200px" width="auto" src="images/mellyLaugh.png">
+    <img height="200px" width="auto" src="images/avatarHeadTrans.png">
     <h3 id=title class="h1D">current projects</h1>
 
     <br />
 
     <a href="https://akaramelly.live/" id=ttv class="Lh3D">Twitch</a>
     <p class="pD">I sometimes live-stream myself playing video games on Twitch. As of December 1st, I have 110 followers.</p>
-    
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+        new Twitch.Embed("twitch-embed", {
+        width: 854,
+        height: 480,
+        channel: "akaramelly",
+        });
+    </script>
     <br />
 
     <a href="https://beforethefa.me/" id=fame class="Lh3D">Music</a>
     <p class="pD">I have been producing music since 2017 and singing since 2019. As of December 1st, I have 92 monthly listeners on Spotify.</p>
-
+    <iframe src="https://open.spotify.com/embed/artist/4cWHc6wEXInsnf5dyU6C0Y?utm_source=generator"
+        width="40%" height="380"
+        frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+    </iframe>
     <br />
 
     <p>© + ℗ Akari Le, 2021</p>
